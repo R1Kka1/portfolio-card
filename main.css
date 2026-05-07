@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #f0f2f5;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.total{
+    padding: 30px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  rgb(255, 255, 255);
+    border-radius: 20px;
+     flex-direction:column;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    gap: 15px;
+   transition: transform 0.3s ease; /* 加个小动画 */
+}
+.total:hover {
+    transform: translateY(-5px); /* 鼠标移上去浮动一下 */
+}
+.title{
+    display: flex;
+}
+.page{
+    display: flex;
+    gap: 10px;
+}
+.profile img{
+    object-fit: cover; /* 防止图片变形 */
+    width: 200px;
+    height: 200px;
+   
+    
+    border-radius: 50%;
+}
+.info p{
+   margin: 14px 0;
+}
+
